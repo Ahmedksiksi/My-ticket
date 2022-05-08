@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Modifier un Ticket</title>
+<link rel="stylesheet" href="MonTicket.css">
+
+</head>
+
+<body>
+
+
+<div id="container">
+	
+	<form name="formadd" action="" method="post" class="formulaire" enctype="multipart/form-data">
+		<h2 align="center">Mettre à jour un ticket :</h2>
+
+                <label><b> Catégorie</b></label>
+                <select class="zonetext" name="categorie" id="categorie" required>
+                        <option value="">Entrer la Catégorie</option>
+                        <option value="cinema">Cinéma</option>
+                        <option value="musique">Musique</option>
+                        <option value="sport">Sport</option>
+                        <option value="spectacle ">Spectacle </option>
+                    </select>          
+                      
+                <label><b>Id Ticket</b></label>
+                <input class="zonetext" type="text" placeholder="Entrer Id Ticket" name="txtId" required>
+
+                <label><b>Nom d'evenement</b></label>
+                <input class="zonetext" type="text" placeholder="Entrer le Nom d'évènement" name="txtNomEv" required>
+
+               <label><b>Prix Ticket</b></label>
+                <input class="zonetext" type="text" placeholder="Entrer le Prix de Ticket" name="txtPrix" required>
+              
+                <label><b>Date d'evenement</b></label>
+                <input class="zonetext" type="date" placeholder="Entrer la Date" name="txtDate" required>
+                <label><b>Lieu d'evenement</b></label>
+                <input class="zonetext" type="text" placeholder="Entrer la Lieu" name="txtLieu" required>
+
+                <label><b>Quantité de Ticket</b></label>
+                <input class="zonetext" type="number" placeholder="Entrer la Quantité" min="1" name="txtLieu" required>
+
+                <label><b>Photo de Ticket</b></label>
+                <input class="zonetext" type="file" placeholder="choisir une photo de Ticket" name="txtphoto" required>
+                <input type="submit" id='submit' class="submit" name="btmod" value='Mettre à Jour' >
+                
+		<p><a href="accuiel.html" class="submit" >Tableau de Bord</a></p>
+                
+                <label style="text-align: center;color: #360001;">
+
+                	
+                	
+                	
+                </label>
+	</form>
+	
+	
+	
+</div>
+
+
+
+   
+ 
+</body>
+</html>

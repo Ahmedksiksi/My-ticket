@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <style>
+    body {
+  background-image: url('./assets/images/adminlogin.jpg');
+}
+  </style> 
+<form class="box" action="" method="post" enctype="multipart/form-data">
+  <h1 class="box-logo box-title">welcome </h1>
+    <h1 class="box-title">S'inscrire Administrateur</h1>
+  <input type="text" class="box-input" id="adminname" name="adminname" placeholder="Nom d'admin" required="" />
+    <input type="text" class="box-input" id="adminemail" name="adminemail" placeholder="Adresse e-mail d'admin" required="" />
+    <input type="password" class="box-input" name="adminpassword" placeholder="Mot de passe d'admin " required="" />
+    <input type="tel" id="phone"  class="box-input" name="adminphone" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}" placeholder="Numéro de téléphone d'admin" required="">
+    <input type="submit" name="submit" value="S'inscrire" class="box-button" />
+    <p class="box-register">Déjà administrateur ?   <a href="login.html">  Se connecter</a></p>
+</form>
+
+</body>
+</html>
